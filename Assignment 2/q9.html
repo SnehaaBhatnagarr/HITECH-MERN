@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUESTION 9</title>
+</head>
+<body style="background: url(https://i.pinimg.com/736x/2e/09/5b/2e095b97603287c99e48cc0e3763dee7.jpg);">
+    <h2 ALIGN="CENTER" style="color: rgb(165, 42, 134);"><u>Reverse of Given Number</u></h2><hr>
+      <div style="text-align: center; margin: 50px; padding: 20px; background-color: rgb(247, 191, 219);">
+        <script>
+         let num = parseInt(prompt("Enter a number: "));
+         let reversed = 0;
+         while (num > 0) {
+        let digit = num % 10;         
+        reversed = (reversed * 10) + digit; 
+        num = Math.floor(num / 10);    
+        }
+            document.write("Reversed number is " + reversed);
+        </script>
+      </div>
+      <p style="text-align: right; margin: 20px;">
+    <a href="q10.html">NEXT</a>
+    </p>
+</body>
+</html>
